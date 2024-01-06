@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer type="module"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>WeatherApp</title>
+</head>
+<body>
+    <div class="temp" id="tempBox">
+        <h1>Temperature</h1>
+        <p id="condition">Sunny</p>
+    </div>
+    
+    <div class="container">
+        <form id="weatherForm">
+            <h3>WeatherMyLocation</h3>
+            <div class="form-control">
+                <input type="text" name="location" id="location" placeholder="location">
+            </div>
+            <div class="form-control">
+                <input type="text" name="location" id="country" placeholder="country">
+            </div>
+            <div class="form-control">
+                <button type="submit" class="btn" id="btnSubmit">Check Weather</button>
+            </div>
+        </form>
+    </div>
+    <div class="loaderContainer">
+        <div class="loader" id="spinner"></div>
+    </div>
+   <footer>Designed and Developed by  &copy;LaoditiusM. 2024</footer>
+</body>
+</html>
